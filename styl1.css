@@ -1,0 +1,49 @@
+body{
+	margin:0px;
+	width:100%;
+}
+#promo_banner{
+	background-color:#EEEEEE;
+	height:50px;
+	font-size:130%;
+	text-align:center;
+}
+#left_banner{
+	background-color:#EEEEEE;
+	height:500px;
+	width:40%;
+	font-size:130%;
+	float:left;
+	
+}
+#mid_banner{
+	float:left;
+	height:500px;
+	width:30%;
+	text-align:center;
+}
+#right_banner{
+	background-color:#EEEEEE;
+	height:500px;
+	width:30%;
+	font-size:130%;
+	text-align:center;
+	float:left;
+}
+#footer_banner{
+	clear:both;
+	background-color:#EEEEEE;
+	height:50px;
+	text-align:right;
+	padding:10px;
+}
+.list_banner{
+	padding-top:30px;
+	background-color:#EEEEEE;
+}
+img,h3{
+	padding-top:50px;
+}
+form{
+	padding-bottom:100px;
+}
