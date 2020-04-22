@@ -10,7 +10,7 @@ body{
 }
 #left_banner{
 	background-color:#FFB544;
-	height:500px;
+	height:600px;
 	width:40%;
 	font-size:130%;
 	float:left;
@@ -18,13 +18,13 @@ body{
 }
 #mid_banner{
 	float:left;
-	height:500px;
+	height:600px;
 	width:30%;
 	text-align:center;
 }
 #right_banner{
 	background-color:#FFB544;
-	height:500px;
+	height:600px;
 	width:30%;
 	font-size:130%;
 	text-align:center;
