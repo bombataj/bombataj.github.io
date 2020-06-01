@@ -1,8 +1,14 @@
-
+#container
+{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
 #logo
 {
 	
-	background-color: 1a3300;
+	background-color: 330004;
 	color: gold ;
 	padding: 10px ;
 	text-align: center;
@@ -10,11 +16,10 @@
 }
 .nav
 {
-	color: #408000;
-	background-color: #204000;
+	color: #7a0016;
+	background-color: #3d001b;
 	padding: 20px;
-	max-width: 170px;
-	min-width: 60px;
+	width: 170px;
 	text-align: center;
 	height: 630px;
 	float: left;
@@ -22,10 +27,10 @@
 }
 #content
 {
-	background-color: #ffcc99;
-	max-width: 1080px;
-	min-width: 680px;
+	background-color: #7cdede;
+	width: 1080px;
 	padding: 5px;
+	float: left;
 	min-height: 660px;
 	display: flex;
     align-items: center;
@@ -33,14 +38,12 @@
 	text-align:center;
 	font-size:25px;
 	color:408000;
-	float: left;
 	
 }
 
 #footer
 {
-	max-width:1080px;
-	min-width:680px;
+	width:1280px;
 	background-color:1a3300;
 	padding:10px;
 	color:pink;
@@ -49,8 +52,7 @@
 }
 .tile
 {
-	max-width:150px;
-	min-width:40px;
+	width:150px;
 	background-color: ffcc99;
 	margin:auto;
 	margin-bottom:20px;
@@ -65,25 +67,7 @@
 	color: 408000;
 	text-decoration:none ;
 	display:block;
-	max-width:150px;
-	min-width:40px;
+	width:150px;
 	min-height:50px;
 	margin:auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
