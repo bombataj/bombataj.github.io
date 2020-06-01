@@ -1,14 +1,7 @@
- *{
-      margin: 0px;
-      padding: 0px;
-    }
-    section{
-      overflow: hidden;
-    }
 #container
 {
 	max-width: 1300px;
-	min-width: 300px;
+	min-width: 680px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
