@@ -33,7 +33,7 @@
 	max-width: 1080px;
 	min-width: 680px;
 	padding: 5px;
-	float: left;
+	clear: both;
 	min-height: 660px;
 	display: flex;
     align-items: center;
