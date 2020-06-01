@@ -1,6 +1,6 @@
 #container
 {
-	width: 1300px;
+	max-width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -19,7 +19,7 @@
 	color: #7a0016;
 	background-color: #3d001b;
 	padding: 20px;
-	width: 170px;
+	max-width: 170px;
 	text-align: center;
 	height: 630px;
 	float: left;
@@ -28,7 +28,7 @@
 #content
 {
 	background-color: #7cdede;
-	width: 1080px;
+	max-width: 1080px;
 	padding: 5px;
 	float: left;
 	min-height: 660px;
@@ -43,7 +43,7 @@
 
 #footer
 {
-	width:1280px;
+	max-width:1280px;
 	background-color:1a3300;
 	padding:10px;
 	color:pink;
@@ -52,7 +52,7 @@
 }
 .tile
 {
-	width:150px;
+	max-width:150px;
 	background-color: ffcc99;
 	margin:auto;
 	margin-bottom:20px;
@@ -67,7 +67,7 @@
 	color: 408000;
 	text-decoration:none ;
 	display:block;
-	width:150px;
+	max-width:150px;
 	min-height:50px;
 	margin:auto;
 }
