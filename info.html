@@ -1,118 +1,134 @@
-<html="pl">
-	<head>
-		<meta charset="utf-8"">
-		<title>WW2 Polacy na frontach</title>
-		<meta name="author" content="Adrian Pielecki">
-		<link rel="stylesheet" href="style.css">
-		<link rel="alternate stylesheet" href="style1.css" title="Alternatywny">
-		<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-	</head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7b8a6a;
-}
+4K WITRYNY I APLIKACJE INTERNETOWE 20-21
+4K
+Responsiv 2 kolumny
+Henryk Andruszko
+•
+21 wrz (Edytowano 30 wrz)
+100 punktów
+Termin: Dzisiaj
+ zadane 1. Umieść podstronę na swojej stronie www (na 5.v lub innej swojej, z której korzystałeś w klasie 3).
+wstaw na stronę szablonu wszystkie elementy wykonane na ćw.: logo, baner i animację
 
-li {
-  float: left;
-  
-}
+index.html
+HTML
+Komentarze do zajęć
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-li a:hover {
-  background-color: #0da183;
-}
+Twoje zadania
+Przypisane
+Komentarze prywatne
 
-</style>
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Strona responsywna</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    section{
+      overflow: hidden;
+    }
+    #ramka{
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 1000px;
+    }
+    #naglowek{
+      background-color: #888;
+      font-size: 20pt;
+      color: #000000;
+      font-family: Arial;
+      font-style: italic;
+      text-align:center;
+      font-weight: bold;
+      }
+    #stopka{
+      background-color: #c0c0c0;
+      font-size: 14pt;
+      color: blue;
+      font-family:Arial;
+      font-style:Italic;
+      clear:both;
+    }
+    .kolumny{
+      margin-top: 10px;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 10px;
+      background-color: #c0c0c0;
+    }
+    #kol1{
+      float: left;
+      width: 20%;
+    }
+    #kol2{
+      padding: 25px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      background-color: #555;
+      border: 1px solid #555;      
+    }
+    li a{
+      display: block;
+      color: #fff;
+      padding: 8px 16px;
+      text-decoration:none;
+    }
+    li{
+      text-align: center;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    li a.active{
+      background-color: #4caf50;
+      color:white;
+    }
+    li a:hover:not(.active){
+      background-color: #f1f1f1;
+      color: black;
+    }
+    @media only screen and (max-width:620px){
+      #kol1{
+        width:100%;
+      } 
+    }
+    </style> 
   </head>
   <body>
- <ul><li><a href="narwik.html">Narwik</a></li>
-			    <li><a href="tobruk.html">Tobruk</a></li>
-						   <li><a href="monte.html">Monte Casino</a></li>
-									  <li><a href="dday.html">D-Day</a></li>
-												 <li><a href="oanglie.html">Bitwa303</a></li>
-															<li><a href="studzianki.html">Studzianki</a></li>
-																	       <li><a href="info.html">Różne</a></li>
-																	       
-						       </ul> </body>
-						       <div class="menu" style="float:left;">
-									   
-									   <li class="menu">
-											   <a href="narwik.html" style="color:black;"><div class="pionowe">narwik</div></a>
-															      
-											   <a href="tobruk.html" style="color:black;"><div class="pionowe">tobruk</div></a>
-															      
-											   <a href="monte.html" style="color:black;"><div class="pionowe">monte</div></a>
-															      
-											   <a href="dday.html" style="color:black;"><div class="pionowe">dday</div></a>
-															      
-											   <a href="oanglie.html" style="color:black;"><div class="pionowe">oanglie</div></a>
-															      
-											   <a href="studzianki.html" style="color:black;"><div class="pionowe">studzianki</div></a>
-															    
-											   <a href="info.html" style="color:black;"><div class="pionowe">rozne</div></a>
-															     </div>
-											   
-															      
-						       
-	<body bgcolor="e6ffcc">
-		<div id="container"> 
-			<div id="logo">
-				<h1>WW2 Polacy na frontach</h1>
-			</div>
-			<div class="nav">
-				<h2>Bitwy z Udziałem Polaków</h2><br>
-				<a href="narwik.html" class="tilelink"><div class="tile">Narwik</div></a>
-				<a href="tobruk.html" class="tilelink"><div class="tile">Tobruk</div></a>
-				<a href="monte.html" class="tilelink"><div class="tile">Monte Casino</div></a>
-				<a href="dday.html" class="tilelink"><div class="tile">D-Day po Polsku</div></a>
-				<a href="oanglie.html" class="tilelink"><div class="tile">Bitwa o Anglię</div></a>
-				<a href="studzianki.html" class="tilelink"><div class="tile">Studzianki</div></a>
-				<a href="info.html" class="tilelink"><div class="tile">Różne</div></a>
-			</div>
-			<div id="content">
-		<div id="cinkciarzPlWidget"></div>
-<div id="cinkciarzPlWidgetNbp"></div>
-<script src="https://cinkciarz.pl/widget/cinkciarz.widget.js"></script>
-		<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/cca06fa117d05edb9b8d6384be8175bb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-						    
-	
-	</div>						
-
-
-
-
-
-
-
-			
-			
-			<div id="footer">
-				WW2 Polacy na frontach &copy; wszelkie prawa zastrzeżone
-			</div>
-		
-			
-		
-		</div>
-	
-	
-		
-	</body>
-
-
-
-
-
-
-
+        <div id="ramka">
+<header id="naglowek">Szablon responsywny - dwukolumnowy</header>
+             <section class="kolumny" id="kol1">
+                      <h3>Menu</h3>
+                      <ul>
+                          <li><a href="start.html">Start</a></li>
+                          <li><a href="nowe.html">Kursy</a></li>
+                          <li><a href="serwis.html">Artykuły</a></li>
+                          <li><a href="uslugi.html">Kontakt</a></li>
+                      </ul>
+             </section>
+             <section class="kolumny" id="kol2"> 
+                      <h3>Opis</h3>
+                      Jeżeli nie zostaną określone szerokości kolumn ani szerokości szablonu,
+        to szablon zajmie całe okno przeglądarki. Zmiana szerokości okna przeglądarki 
+        spowoduje automatyczną modyfikację zawartości strony i jej dostosowanie do aktualnych rozmiarów okna.
+                      Jeżeli w podanym wyżej kodzie umieścimy w kolumnie drugiej fragment tekstu, zaopeserujemy zachowanie się zawartości strony przy zmianie szerokości okna przeglądarki.
+                     Mało praktyczne jest projektowanie strony, która będzie się rozciągała do granic możliwości
+        monitora. Lepiej zaprojektować stronę tak, aby powyżej pewnej szerokości ekranu jej szerokość już się nie zwiększyła
+       , a poniżej pewnej szerokości okna przeglądarki nie zmniejszyła. Aby uzyskać taki efekt, należy zdefiniować minimalną i 
+        maksymalną szerokość bloku zewnętrznego (w powyższym przykładzie identyfikator ramka).
+             </section>
+             <footer id="stopka">Pracę wykonał Jan Kowalski</footer>
+        </div>
+  </body>
 </html>
+index.html
+Wyświetlam element index.html.
