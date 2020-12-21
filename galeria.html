@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Strona responsywna</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+
+   
+   <style>
+     body {background: rgb(0,0,182);
+background: linear-gradient(90deg, rgba(0,0,182,1) 21%, rgba(212,0,0,1) 47%, rgba(255,255,255,1) 76%);}
+     *{
+      margin: 0px;
+      padding: 0px;
+    }
+    section{
+      overflow: hidden;
+    }
+    #ramka{
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 1000px;
+    }
+      #baner{
+      text-align:center;
+      }
+    #naglowek{
+      background-color: #EF002A;
+      font-size: 20pt;
+      color: #888;
+      font-family: Arial;
+      font-style: italic;
+      text-align:center;
+      font-weight: bold;
+      }
+    #stopka{
+      background-color: #EF002A;
+      font-size: 14pt;
+      color: blue;
+      font-family:Arial;
+      font-style:Italic;
+      clear:both;
+    }
+    .kolumny{
+      margin-top: 10px;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 10px;
+      background-color: #EF002A;
+    }
+    #kol1{
+      float: left;
+      width: 20%;
+    }
+    #kol2{
+      padding: 25px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      background-color: #EF002A;
+      border: 1px solid #555;      
+    }
+    li a{
+      display: block;
+      color: ##EF002A;
+      padding: 8px 16px;
+      text-decoration:none;
+    }
+    li{
+      text-align: center;
+      border-bottom: 1px solid #EF002A;
+    }
+    li a.active{
+      background-color: #EF002A;
+      color:white;
+    }
+    li a:hover:not(.active){
+      background-color: #EF662A;
+      color: black;
+    }
+    @media only screen and (max-width:620px){
+      #kol1{
+        width:100%;
+      } 
+    }
+    </style> 
+  </head>
+  <body    background-color: #F80000>
+     <center><img src="logo.png" id="baner" style="text-align: center"/>
+<img src="banner.jpg" id="baner" style="text-align: center"/></center>
+        <div id="ramka">
+<header id="naglowek">Szablon responsywny - dwukolumnowy</header>
+             <section class="kolumny" id="kol1">
+                      <h3>Menu</h3>
+                      <ul>
+                          <li><a href="start.html">Start</a></li>
+                          <li><a href="nowe.html">Kursy</a></li>
+                          <li><a href="serwis.html">Artykuły</a></li>
+                          <li><a href="uslugi.html">Kontakt</a></li>
+                         <li><a href="hobby.html">Hobby</a></li>
+                      </ul>
+             </section>
+             <section class="kolumny" id="kol2"> 
+                      <h3>Opis</h3>
+                      Jeżeli nie zostaną określone szerokości kolumn ani szerokości szablonu,
+        to szablon zajmie całe okno przeglądarki. Zmiana szerokości okna przeglądarki 
+        spowoduje automatyczną modyfikację zawartości strony i jej dostosowanie do aktualnych rozmiarów okna.
+                      Jeżeli w podanym wyżej kodzie umieścimy w kolumnie drugiej fragment tekstu, zaopeserujemy zachowanie się zawartości strony przy zmianie szerokości okna przeglądarki.
+                     Mało praktyczne jest projektowanie strony, która będzie się rozciągała do granic możliwości
+        monitora. Lepiej zaprojektować stronę tak, aby powyżej pewnej szerokości ekranu jej szerokość już się nie zwiększyła
+       , a poniżej pewnej szerokości okna przeglądarki nie zmniejszyła. Aby uzyskać taki efekt, należy zdefiniować minimalną i 
+        maksymalną szerokość bloku zewnętrznego (w powyższym przykładzie identyfikator ramka).
+             </section>
+            
+         <center>
+           <img src="gif.gif" />
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769515168!2d2.277020492155876!3d48.85895068065112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyecW8LCBGcmFuY2ph!5e0!3m2!1spl!2spl!4v1606216917510!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </center>
+          
+           <footer id="stopka">Pracę wykonał Jan Kowalski</footer>
+        </div>
+  </body>
+</html>
