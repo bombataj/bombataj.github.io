@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Strona responsywna</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+
+   
+   <style>
+     body {background-color: #0000FF ;}
+     *{
+      margin: 0px;
+      padding: 0px;
+    }
+    section{
+      overflow: hidden;
+    }
+    #ramka{
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 1000px;
+    }
+      #baner{
+      text-align:center;
+      }
+    #naglowek{
+      background-color: #EF002A;
+      font-size: 20pt;
+      color: #888;
+      font-family: Arial;
+      font-style: italic;
+      text-align:center;
+      font-weight: bold;
+      }
+    #stopka{
+      background-color: #EF002A;
+      font-size: 14pt;
+      color: blue;
+      font-family:Arial;
+      font-style:Italic;
+      clear:both;
+    }
+    .kolumny{
+      margin-top: 10px;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 10px;
+      background-color: #EF002A;
+    }
+    #kol1{
+      float: left;
+      width: 20%;
+    }
+    #kol2{
+      padding: 25px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      background-color: #EF002A;
+      border: 1px solid #555;      
+    }
+    li a{
+      display: block;
+      color: ##EF002A;
+      padding: 8px 16px;
+      text-decoration:none;
+    }
+    li{
+      text-align: center;
+      border-bottom: 1px solid #EF002A;
+    }
+    li a.active{
+      background-color: #EF002A;
+      color:white;
+    }
+    li a:hover:not(.active){
+      background-color: #EF662A;
+      color: black;
+    }
+    @media only screen and (max-width:620px){
+      #kol1{
+        width:100%;
+      } 
+    }
+    </style> 
+  </head>
+  <body    background-color: #F80000>
+     <center><img src="logo.png" id="baner" style="text-align: center"/>
+<img src="banner.jpg" id="baner" style="text-align: center"/></center>
+        <div id="ramka">
+<header id="naglowek">Pogoda</header>
+
+    
+          
+           <footer id="stopka">Pogoda</footer>
+        </div>
+  </body>
+</html>
